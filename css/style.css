@@ -167,7 +167,7 @@ body {
 .blog {
   padding-top: 103px;
   padding-bottom: 46px;
-  background-color: turquoise;
+  /*background-color: turquoise;*/
 }
 
 .blog .title {
@@ -190,6 +190,7 @@ body {
 
 .blog-description {
   font-size: 18px;
+  line-height: 26px;
   font-family: var(--font-opensans);
   font-weight: 600;
   color: var(--text-color);
@@ -201,8 +202,32 @@ body {
 .about {
   font-family: var(--font-opensans);
   font-size: 14px;
+  line-height: 26px;
   font-weight: 700;
   color: var(--text-color);
   margin: 0;
   margin-bottom: 16px;
+}
+
+/*BUTTON*/
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: var(--font-opensans);
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #4ec6ab;
+  color: #fff;
+  border-radius: 4px;
+  width: 160px;
+  height: 50px;
+}
+
+.blog-item .button:hover,
+.blog-item .button {
+  color: #fff;
+  background-color: #7fd9c7;
 }
