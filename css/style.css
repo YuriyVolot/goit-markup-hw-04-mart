@@ -210,7 +210,7 @@ body {
 }
 
 /*BUTTON*/
-.button {
+.link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
